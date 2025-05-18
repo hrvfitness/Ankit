@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Subscribe - HRV Fitness</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        img { max-width: 200px; margin: 10px 0; }
+        form { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Subscribe to a Plan</h1>
+    <p>Scan the QR code below or pay directly via UPI:</p>
+    <img src="upi_qr.png" alt="UPI QR Code">
+    <p><strong>UPI ID:</strong> ankitchhoker057@okicici</p>
+    <form action="https://formsubmit.co/ankitchhoker057@gmail.com" method="POST">
+        <label>Name: <input type="text" name="name" required></label><br>
+        <label>Email: <input type="email" name="email" required></label><br>
+        <label>Phone: <input type="text" name="phone" required></label><br>
+        <label>Plan:
+            <select name="plan">
+                <option value="Diet Plan">Diet Plan - ₹499</option>
+                <option value="Exercise Plan">Exercise Plan - ₹699</option>
+            </select>
+        </label><br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
